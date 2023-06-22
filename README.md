@@ -5,7 +5,7 @@ This project is the backend logic of a hotel reservation management system. It u
 ## Project Learning Goals Achieved
 - Understand the basics of **classes**, **arrays**, and **static and dynamic memory** in **C++**.
 - Learn how to **create** and **populate classes**, use functions and constructors effectively, and provide a working Makefile.
-- Gain experience in **array manipulation** and implementing **application logic**.
+- Gain experience in **array manipulation** and implementing **application logic** with **CRUD** functionalities.
 ## Classes
  1. Date Class
  2. Reservation Class
@@ -14,7 +14,18 @@ This project is the backend logic of a hotel reservation management system. It u
 ## Run
 ```c
 $ make all
-$ ./a1
+$ ./hotelRes
+```
+## Clean Traget in the Makefile
+Linux:
+```c
+$ clean:
+$ rm -f hotelRes *.o
+```
+Windows:
+```c
+$ clean:
+$ del /q *.o *.exe
 ```
 ## Functionality
  
