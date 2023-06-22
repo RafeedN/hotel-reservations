@@ -22,7 +22,7 @@ $ ./hotelRes
  
 ![image](https://github.com/RafeedN/hotel-reservations/assets/87875513/94986a94-c22e-4609-84ca-8037bb43911c)
 
-## Clean Traget in the Makefile
+## Clean Target in the Makefile
 Linux:
 ```c
 $ clean:
